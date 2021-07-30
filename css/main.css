@@ -1,0 +1,89 @@
+body{
+    background-color: #898b94;
+}
+
+.page__sidebar{
+-webkit-tap-highlight-color: transparent;
+-webkit-text-size-adjust: 100%;
+color: #333;
+
+box-sizing: border-box;
+background-color: #0d1225;
+height: 100%;
+left: 0;
+position: fixed;
+top: 0;
+width: 20vh;
+z-index: -100;
+touch-action: auto;
+}
+
+.page__sidebar a:hover{
+    color: #ff5c00;
+    background-color: transparent;
+    background-image: none;
+    text-decoration: none;
+
+}
+
+.page__sidebar a{
+    color: #898b94;
+}
+
+.page__sidebar .nav--features>li>a {
+    font-size: 2vh;
+    line-height: 4vh;
+
+    font-weight: bolder;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.nav>li {
+    display: inline-block;
+    margin: 0 -5px 0 12px;
+    padding: 0;
+    white-space: normal;
+}
+.list-inline>li, .nav>li {
+    float: none;
+    vertical-align: middle;
+    word-break: break-word;
+}
+.nav {
+    margin: 0;
+    padding: 0 5px 0 0;
+    white-space: nowrap;
+    word-break: break-word;
+    list-style: none;
+}
+
+#contact-details{
+   margin-top: 80%;
+}
+
+.box {
+    background: #c8cacf;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -100;
+}
+
+
+.summary{
+    margin-right: 0%;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: absolute;
+    height: 40%;
+    width: 80%;
+    background: white;
+}
